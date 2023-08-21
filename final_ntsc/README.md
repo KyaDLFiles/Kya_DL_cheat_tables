@@ -1,3 +1,4 @@
+
 Some stuff already documented as https://kyadlfiles.github.io/technical
 Quick writeup about what's not:
 - distance from floor goes to max 10,3; at which point kya starts freefalling
