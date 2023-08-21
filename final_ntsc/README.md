@@ -1,8 +1,8 @@
 
-Some stuff already documented as https://kyadlfiles.github.io/technical
+Some stuff already documented as https://kyadlfiles.github.io/technical  
 Quick writeup about what's not:
 - distance from floor goes to max 10,3; at which point kya starts freefalling
-- aux speeds seem clamped? like after a certain value kya will move at the same max speed regardless of the value; except an absurdely high value which sends her to the libo
+- aux speeds seem clamped? like after a certain value kya will move at the same max speed regardless of the value; except an absurdely high value which sends her to the limbo
 - setting current status to 168 unlock flight like in sep29/may12; but this is a forced method and can actually lock up kya in some circumstances (eg while fighting). another useful one is 161, which kills kya
 - health <= 0 achieves zombie state, health > 250 crashes EVERYTHING (including the emulator itself)
 - If infincibility/strength timer >= game timer, kya is invincible/strong
