@@ -7,6 +7,7 @@ Quick writeup about what's not:
 - health <= 0 achieves zombie state, health > 250 crashes EVERYTHING (including the emulator itself)
 - If infincibility/strength timer >= game timer, kya is invincible/strong
 - Make kya invisible works for activation, but to deactivate you need to enter and exit FPV
+- i don't know how cam pointers work, snugggles found them
 - max mana can\'t be >10, but it can go negative
 - regeneration seems to be forcibly given every time you enter NC
 - game speed multiplier is wonderful. too fast breaks the game, negative value absolutely destroys it (try it!)
