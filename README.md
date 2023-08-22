@@ -12,6 +12,9 @@ Guide (from PCSX2 Discord):
 setPointerSize(4)
 setAssemblerMode(0)
 ```
+With this procedure, the memory and offsets stored in the cheat table will match the values they'd have on the actual hardware, so they also be directly used to write cheat codes
 
+  
 
+    
 Legacy note: PCSX2 1.6 instead always maps EEmem to 0x20000000, but please try to migrate to 1.7 as it's more accurate, seems to be faster, and will shortly replace 1.6 as the stable release anyway
