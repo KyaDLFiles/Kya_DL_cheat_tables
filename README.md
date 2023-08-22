@@ -12,7 +12,7 @@ Guide (from PCSX2 Discord):
 setPointerSize(4)
 setAssemblerMode(0)
 ```
-With this procedure, the memory and offsets stored in the cheat table will match the values they'd have on the actual hardware, so they also be directly used to write cheat codes
+With this procedure, the addresses and offsets stored in the cheat table will match the values they'd have on the actual hardware, so they also be directly used to write cheat codes
 
   
 
