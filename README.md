@@ -14,4 +14,4 @@ setAssemblerMode(0)
 ```
 
 
-Legacy note: PCSX2 instead always maps EEmem to 0x20000000, but please try to migrate to 1.7 as it's more accurate, seems to be faster, and will shortly replace 1.6 as the stable release anyway
+Legacy note: PCSX2 1.6 instead always maps EEmem to 0x20000000, but please try to migrate to 1.7 as it's more accurate, seems to be faster, and will shortly replace 1.6 as the stable release anyway
