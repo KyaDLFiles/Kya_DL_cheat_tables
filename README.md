@@ -7,7 +7,7 @@ Guide (from PCSX2 Discord):
 1. Click "Emulator Memory" > "Set Base Address"
 1. Type [eemem] to first text box and type 0x02000000 to "Size of Memory", then click "(Re)Set address"
 1. If you want to open an already existing cheat table, do so now
-1. Execute following script on "Cheat Table Lua script" (shortcut: Ctrl+Alt+L) (in case of the table in this repo, you can just confirm the popup when you've opened it)
+1. Execute following script on "Cheat Table Lua script" (shortcut: Ctrl+Alt+L) (in case of the table in this repo, you can just confirm the popup that shows when you open it)
 ```
 setPointerSize(4)
 setAssemblerMode(0)
