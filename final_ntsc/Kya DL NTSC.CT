@@ -2,6 +2,13 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
+      <ID>1706</ID>
+      <Description>"Enable flying cheat (R2 + R3)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>181CE50</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>1351</ID>
       <Description>"Game timer"</Description>
       <VariableType>Float</VariableType>
@@ -205,24 +212,24 @@
             <Offset>0001A54</Offset>
           </Offsets>
         </CheatEntry>
-		<CheatEntry>
-      <ID>729</ID>
-      <Description>"Cam Standing Facing Pointer"</Description>
-      <VariableType>Float</VariableType>
-      <Address>06e1064</Address>
-      <Offsets>
-        <Offset>0000204</Offset>
-      </Offsets>
-		</CheatEntry>
-		<CheatEntry>
-		  <ID>728</ID>
-		  <Description>"Cam Standing Angle Pointer"</Description>
-		  <VariableType>Float</VariableType>
-		  <Address>06e1064</Address>
-		  <Offsets>
-			<Offset>0000200</Offset>
-		  </Offsets>
-		</CheatEntry>
+        <CheatEntry>
+          <ID>729</ID>
+          <Description>"Cam Standing Facing Pointer"</Description>
+          <VariableType>Float</VariableType>
+          <Address>06e1064</Address>
+          <Offsets>
+            <Offset>0000204</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>728</ID>
+          <Description>"Cam Standing Angle Pointer"</Description>
+          <VariableType>Float</VariableType>
+          <Address>06e1064</Address>
+          <Offsets>
+            <Offset>0000200</Offset>
+          </Offsets>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
@@ -628,28 +635,26 @@
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
-	  <CheatEntry>
-		  <ID>1450</ID>
-		  <Description>"Camera status (?)"</Description>
-		  <ShowAsHex>1</ShowAsHex>
-		  <ShowAsSigned>1</ShowAsSigned>
-		  <VariableType>4 Bytes</VariableType>
-		  <Address>06E1068</Address>
-		  <CheatEntries>
-			<CheatEntry>
-			  <ID>1554</ID>
-			  <Description>"Current camera status that sets it to normal (????)"</Description>
-			  <ShowAsHex>1</ShowAsHex>
-			  <ShowAsSigned>1</ShowAsSigned>
-			  <VariableType>4 Bytes</VariableType>
-			  <Address>06E1064</Address>
-			</CheatEntry>
-		  </CheatEntries>
-		</CheatEntry>
-	
+    <CheatEntry>
+      <ID>1450</ID>
+      <Description>"Camera status (?)"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>1</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>06E1068</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1554</ID>
+          <Description>"Current camera status that sets it to normal (????)"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>1</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>06E1064</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-
   <LuaScript>setPointerSize(4)
 setAssemblerMode(0)
 
