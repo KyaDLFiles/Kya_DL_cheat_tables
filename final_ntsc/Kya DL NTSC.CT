@@ -2,11 +2,31 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
-      <ID>1706</ID>
-      <Description>"Enable flying cheat (R2 + R3)"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>181CE50</Address>
+      <ID>1708</ID>
+      <Description>"Dormant features"</Description>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1706</ID>
+          <Description>"Enable flying cheat (R2 + R3)"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0448AA0</Address>
+          <Offsets>
+            <Offset>AA0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>1707</ID>
+          <Description>"Invincibility"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>0448AA0</Address>
+          <Offsets>
+            <Offset>aa4</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>1351</ID>
