@@ -315,6 +315,13 @@
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>1621</ID>
+      <Description>"Stuff (the animal)"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>037372C</Address>
+    </CheatEntry>
+    <CheatEntry>
       <ID>1606</ID>
       <Description>"Currently loaded level sector (SECTx.BNK)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
