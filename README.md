@@ -1,5 +1,5 @@
 # Kya DL Cheat Engine tables
-These cheat tables are for PCSX2 1.7
+These cheat tables are for PCSX2 ≥2.0
 ## Guide (from PCSX2 Discord):  
 1. Download latest emurpm.lua and emurpm.frm from CE's GitHub (https://github.com/cheat-engine/cheat-engine/tree/master/Cheat%20Engine/bin/autorun) 
 1. Put them into autorun folder (%programfiles%\Cheat engine x.y\autorun\)
@@ -17,4 +17,4 @@ With this procedure, the addresses and offsets stored in the cheat table will ma
   
 
     
-Legacy note: PCSX2 1.6 instead always maps EEmem to 0x20000000, but please try to migrate to 1.7 as it's more accurate, seems to be faster, has useful features (like frame advance), and will shortly replace 1.6 as the stable release anyway
+Legacy note: PCSX2 1.6 instead always maps EEmem to 0x20000000, but please try to migrate to 2.0 as it's more accurate, seems to be faster, has useful features (like frame advance), and will shortly replace 1.6 as the stable release anyway
